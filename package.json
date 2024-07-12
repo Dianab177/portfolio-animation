@@ -1,0 +1,17 @@
+{
+  "name": "portfolio-proyecto",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "npm run prebuild && parcel",
+    "build": "parcel build",
+    "prebuild": "rm -rf dist"
+  },
+  "browserlist": "> 0.5%, last 2 versions, not dead",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
